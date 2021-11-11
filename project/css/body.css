@@ -1,0 +1,126 @@
+.body{
+
+}
+.body__block{
+    width: 96%;
+    justify-content: center;
+ }
+.block{
+     margin: 25px 0;
+     height: 600px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 30px solid #30D5C8;
+    border-radius: 8%;
+ }
+
+.block--action{
+    background: url("https://pic.rutube.ru/video/4d/49/4d49409d57fa009e5745f04d10639695.jpg") no-repeat  ;
+    background-size: cover;
+}
+.block--action > div{
+    margin-right: auto;
+    width: 30%;
+    margin-left: auto;
+    height: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block--action > div > p{
+    margin-top: 120px;
+    width: 80%;
+    font-family: 'Zen Antique',serif;
+    font-weight: bold;
+    line-height: 100%;
+    font-size: 150%;
+    text-align: center;
+    justify-content: center;
+}
+.block--action > div > a{
+    margin-top: -100px;
+    height: 70px;
+    display: flex;
+    font-family: 'Zen Antique',serif;
+    font-weight: bold;
+    line-height: 80%;
+    font-size: 140%;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    border: 10px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
+.block--action > div > a > img{
+    margin-right: 10px;
+}
+.block--action > span{
+    width: 100px;
+    background: none;
+}
+.photo--left{
+    background: url("https://d1a0n9gptf7ayu.cloudfront.net/cache/f4/15/f415882506e5a9d55962544e3a21101c.jpg") no-repeat center center;
+    background-size: 113%;
+    border-radius: 50%;
+}
+.photo--right{
+    background: url("https://www.freepngimg.com/thumb/mass_effect/91681-mass-effect-symmetry-area-free-transparent-image-hd.png") no-repeat center center #fff;
+    background-size: 113%;
+    border-radius: 50%;
+}
+
+.block--choose{
+    background: url("https://dzbc.org/d/6785/ATTI42.jpg") no-repeat center center;
+    background-size: cover;
+    justify-content: right;
+}
+.block--choose > div{
+    width: 600px;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Zen Antique',serif;
+    font-size: 200%;
+    background-color: #fff;
+    font-weight: bold;
+    border: 20px solid #000;
+    border-radius: 40%;
+}
+.block--choose>div>a{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 10px solid #ff0000;
+    height: 40px;
+    width: 100px;
+}
+
+.block--easteregg{
+    background: url("http://st.gde-fon.com/wallpapers_original/435370_mass-effect_mass_1680x1050_www.Gde-Fon.com.jpg") no-repeat center center;
+}
+.block--easteregg>div{
+    width: 50%;
+    font-family: 'Zen Antique',serif;
+    font-size: 200%;
+    text-align: center;
+    background: url("https://yobte.ru/uploads/posts/2019-11/galaktika-59-foto-13.jpg") no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    border-radius: 30%;
+    padding: 80px 0;
+}
+.block--easteregg>div>p{
+    text-align: center;
+    color: #fff;
+
+}
+.block--easteregg>div>a{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 10px solid #ff0000;
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+}

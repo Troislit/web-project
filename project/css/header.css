@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Zen Antique, sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+    font-weight: bold;
+    font-size: 200px;
+    unicode-range: U+0410-044F;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__chamber_one{
+    width: 25%;
+    height: 360px;
+}
+.header__chamber_two{
+    width: 74%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__nav{
+    display: flex;
+    margin-top: 10px;
+}
+.nav__block{
+    width: 270px;
+    height: 80px;
+    background: linear-gradient(#30D5C8, #002137);
+    border: 3px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__block--active{
+    opacity: 0.5;
+}
+.nav__block--disabled{
+    display: none;
+}
+.nav__block--link{
+    text-transform: uppercase;
+    font-family: 'Zen Antique',serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #fff;
+}
+.nav__block:hover{
+    opacity: 0.7;
+}
+.nav__block:not(:first-child){
+    margin-left: 10px;
+}

@@ -1,0 +1,10 @@
+.creator{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background-color: #fff;
+    border: 20px solid #000;
+    border-radius: 20%;
+}
+.creator >p>a{
+    color: #0000ff;
+}
